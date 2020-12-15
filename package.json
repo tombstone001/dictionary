@@ -1,0 +1,27 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tombstone001/dictionary.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tombstone001/dictionary/issues"
+  },
+  "homepage": "https://github.com/tombstone001/dictionary#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "get-user-locale": "^1.4.0",
+    "nodemon": "^2.0.6",
+    "word-definition": "^2.1.6"
+  }
+}
